@@ -21,8 +21,7 @@
 	          	Temas <span class="caret"></span>
 	          </a>
 	          <ul class="dropdown-menu">
-	            <li><a href="proximidad">Distancia entre puntos</a></li>
-	            <li><a href="configurar-git">Configurar GIT</a></li>
+	            <?php echo $nav; ?>
 	            <li role="separator" class="divider"></li>
 	            <li><a href="#">Separated link</a></li>
 	          </ul>

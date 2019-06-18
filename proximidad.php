@@ -1,3 +1,4 @@
+<?php include 'includes/viewLoader.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,8 @@
 	<meta charset="UTF-8">
 
 	<meta name="description" content="Investigación para obtener distancia entre geopuntos con MySQL">
-  <meta name="keywords" content="proximidad entre geopuntos, distancia entre geopuntos, distancia entre geopuntos con mysql, distancia, proximidad">
+  <!-- <meta name="keywords" content="proximidad entre geopuntos, distancia entre geopuntos, distancia entre geopuntos con mysql, distancia, proximidad"> -->
+  <meta name="keywords" content="<?php echo $view->palabras; ?>">
 
   <meta name="author" content="Tecnologias COSITEC">
 
@@ -39,7 +41,7 @@
 	
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Investigación sobre proximidad entre geopuntos</h3> 
+					<h3><?php echo $view->titulo_tema; ?></h3> 
 				</div>
 				
 			</div>
@@ -47,7 +49,7 @@
 			
 			<div class="row">
 				<div class="col-md-12">
-					<small> Autor: <a style="text-decoration: underline; color: currentColor" href="https://github.com/thekami" target="_blank">Angel Torres</a></small>
+					<small> Autor: <a style="text-decoration: underline; color: currentColor" href="<?php echo $view->pagina; ?>" target="_blank"><?php echo $view->autor; ?></a></small>
 					<hr>
 				</div>
 			</div>

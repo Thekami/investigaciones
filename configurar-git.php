@@ -1,3 +1,4 @@
+<?php include 'includes/viewLoader.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
 	<meta charset="UTF-8">
 
 	<meta name="description" content="Como configurar git">
-  <meta name="keywords" content="configurar git, git config">
+  <meta name="keywords" content="<?php echo $view->palabras; ?>">
 
   <meta name="author" content="Tecnologias COSITEC">
 
@@ -39,7 +40,7 @@
 	
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Como configurar Git con GitHub en Windows, OS X o Linux</h3> 
+					<h3><?php echo $view->titulo_tema; ?></h3> 
 				</div>
 				
 			</div>
@@ -47,7 +48,7 @@
 			
 			<div class="row">
 				<div class="col-md-12">
-					<small> Autor: <a style="text-decoration: underline; color: currentColor" href="https://github.com/thekami" target="_blank">Angel Torres</a></small>
+					<small> Autor: <a style="text-decoration: underline; color: currentColor" href="<?php echo $view->pagina; ?>" target="_blank"><?php echo $view->autor; ?></a></small>
 					<hr>
 				</div>
 			</div>
