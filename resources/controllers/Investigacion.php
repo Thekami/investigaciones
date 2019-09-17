@@ -41,6 +41,14 @@
             return $result;
         }
 
+        public static function search($data){
+
+            $consult = "SELECT * FROM temas WHERE key_word LIKE '%$data%'";
+            $result  = DBConnection::query_object($consult);
+
+            return $result;
+        }
+
 
 
         
