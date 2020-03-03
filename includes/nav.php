@@ -22,8 +22,8 @@
 	          </a>
 	          <ul class="dropdown-menu">
 	            <?php echo $nav; ?>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
+	            <!-- <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li> -->
 	          </ul>
 	        </li>
 

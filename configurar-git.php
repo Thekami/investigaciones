@@ -55,7 +55,7 @@
 			
 			<div class="row">
 				<div class="col-md-12">
-					<p>El siguiente tutorial nos explicará cómo configurar rápidamente GIT, la explicación es funcional para cualquier sistema operativo y estamos dando por hecho que ya tienes instalado GIT en tu equipo. De no ser así puedes entrar al siguiente <a href="https://git-scm.com/book/es/v1/Empezando-Instalando-Git" target="_blank">link</a> donde podrás aprender a instalarlo correctamente. </p>
+					<p>El siguiente tutorial nos explicará cómo configurar rápidamente GIT, la explicación es funcional para cualquier sistema operativo y estamos dando por hecho que ya tienes instalado GIT en tu equipo. De no ser así puedes entrar al siguiente link donde podrás <a href="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git" target="_blank">aprender a instalarlo correctamente.</a> </p>
 					<hr>
 				</div>
 			</div>
@@ -71,7 +71,7 @@
 					<pre><code>$ git config --global user.name "Angel Torres"
 $ git config --global user.email micorreo@midominio.com</code></pre>
 
-					<p>Para mas información: <a href="https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez" target="_blank">Configurando Git por primera vez</a></p>
+					<p>Para mas información: <a href="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez" target="_blank">Configurando Git por primera vez</a></p>
 					<hr>
 				</div>
 			</div>
